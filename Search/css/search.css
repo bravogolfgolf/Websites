@@ -1,0 +1,19 @@
+body {
+    line-height: 1.15;
+}
+
+.hide {
+    display: none;
+}
+
+#data a {
+    margin-bottom: 3px;
+    padding: 5px;
+}
+
+#data a:hover {
+    border-radius: 0.25em;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+}
