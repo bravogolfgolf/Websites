@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Quote/Quote.iml" filepath="$PROJECT_DIR$/Quote/Quote.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Search/Search.iml" filepath="$PROJECT_DIR$/Search/Search.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tribute/Tribute.iml" filepath="$PROJECT_DIR$/Tribute/Tribute.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Weather/Weather.iml" filepath="$PROJECT_DIR$/Weather/Weather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/portfolio/Portfolio.iml" filepath="$PROJECT_DIR$/portfolio/Portfolio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quote/Quote.iml" filepath="$PROJECT_DIR$/quote/Quote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/search/Search.iml" filepath="$PROJECT_DIR$/search/Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tribute/Tribute.iml" filepath="$PROJECT_DIR$/tribute/Tribute.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather/Weather.iml" filepath="$PROJECT_DIR$/weather/Weather.iml" />
     </modules>
   </component>
 </project>
