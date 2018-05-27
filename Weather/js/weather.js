@@ -87,7 +87,7 @@ function toggleFahrenheitCelsiusButton() {
 }
 
 function toggleFahrenheitCelsiusValues() {
-    var list = document.getElementsByTagName("degrees");
+    var list = document.getElementsByTagName("span");
     for (var i = 0; i < list.length; i++) {
         list[i].classList.toggle("hide");
     }
