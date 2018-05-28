@@ -1,7 +1,20 @@
-#buttons {
-    cursor: default;
+#tweet {
+    color: #b71234;
 }
+
+#tweet:hover {
+    color: #96091c;
+}
+#refresh {
+    color: #b71234;
+}
+
+#refresh:hover {
+    color: #96091c;
+}
+
 .quote:before {
+    color: #b71234;
     height: 300px;
     float: left;
     font-size: 6em;
