@@ -110,7 +110,7 @@ $(document).ready(function () {
         var item = streams[i];
         var divClose = "</div>";
 
-        if (streams[i].status === 404) {
+        if (streams[i].stream === undefined) {
             console.log("Error");
         }
         else if (streams[i].stream === null) {
@@ -150,4 +150,19 @@ $(document).ready(function () {
 
     }
     document.getElementById("data").innerHTML = html;
+
+    $("#nav-all").click(function () {
+        $(".online, .offline").removeClass("hide");
+    });
+
+    $("#nav-online").click(function () {
+        $(".online").removeClass("hide");
+        $(".offline").addClass("hide");
+    });
+
+    $("#nav-offline").click(function () {
+        $(".online").addClass("hide");
+        $(".offline").removeClass("hide");
+    });
+
 });
