@@ -106,46 +106,53 @@ $(document).ready(function () {
 
     var html = "";
 
+    function userIsOffline() {
+        return streams[i].stream === null;
+    }
+
+    function htmlForOfflineStream() {
+        html += '<div class="offline row justify-content-center align-items-center mb-3">';
+        html += '<img class="p-0" src=\"';
+        html += "../images/no_icon.png";
+        html += '\">';
+
+        html += '<div class="col-2 offset-md-1">';
+        html += item.display_name;
+        html += "</div>";
+
+        html += '<div class="col">';
+        html += "Offline";
+        html += "</div>";
+        html += "</div>";
+    }
+
+    function htmlForOnlineStream() {
+        html += '<div class="online row justify-content-center align-items-center mb-3">';
+        html += '<img class="p-0" src=\"';
+        html += item.stream.logo;
+        html += '\">';
+
+        html += '<a  class="col-2 offset-md-1 text-black" href=\"';
+        html += item.stream.url;
+        html += '\">';
+        html += item.stream.display_name;
+        html += '</a>';
+
+        html += '<div class="col">';
+        html += item.stream.status;
+        html += "</div>";
+        html += "</div>";
+    }
+
     for (var i = 0; i < streams.length; i++) {
         var item = streams[i];
-        var divClose = "</div>";
-
         if (streams[i].stream === undefined) {
-            console.log("Error");
         }
-        else if (streams[i].stream === null) {
-            html += '<div class="offline row justify-content-center align-items-center mb-3">';
-
-            html += '<img class="p-0" src="../images/no_icon.png">';
-
-            html += '<div class="col-2 offset-md-1">';
-            html += item.display_name;
-            html += divClose;
-            html += '<div class="col">';
-            html += "Offline";
-            html += divClose;
-
-            html += divClose;
+        else if (userIsOffline()) {
+            htmlForOfflineStream();
         }
         else {
-
-            html += '<div class="online row justify-content-center align-items-center mb-3">';
-
-            html += '<img class="p-0" src=\"';
-            html += item.stream.logo;
-            html += '\">';
-
-            html += '<a  class="col-2 offset-md-1 text-black" href=\"';
-            html += item.stream.url;
-            html += '\">';
-            html += item.stream.display_name;
-            html += '</a>';
-
-            html += '<div class="col">';
-            html += item.stream.status;
-            html += divClose;
-
-            html += divClose;
+            htmlForOnlineStream();
         }
 
     }
