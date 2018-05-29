@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="06e37e39-6bec-4aa8-ba8f-2a63a9f4ca95" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitch/js/twitch.js" beforeDir="false" afterPath="$PROJECT_DIR$/twitch/js/twitch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitch/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/twitch/html/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="portfolio/images/Portfolio.png" />
@@ -23,20 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twitch/html/index.html">
+      <file leaf-file-name="twitch.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitch/js/twitch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="2040">
+              <caret line="136" column="35" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twitch.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/twitch/js/twitch.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/twitch/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+            <state relative-caret-position="330">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -89,8 +89,8 @@
         <option value="$PROJECT_DIR$/search/css/search.css" />
         <option value="$PROJECT_DIR$/tribute/css/tribute.css" />
         <option value="$PROJECT_DIR$/portfolio/portfolio.iml" />
-        <option value="$PROJECT_DIR$/twitch/html/index.html" />
         <option value="$PROJECT_DIR$/twitch/js/twitch.js" />
+        <option value="$PROJECT_DIR$/twitch/html/index.html" />
       </list>
     </option>
   </component>
@@ -120,20 +120,6 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="Websites" type="b2602c69:ProjectViewProjectNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Websites" type="b2602c69:ProjectViewProjectNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Websites" type="b2602c69:ProjectViewProjectNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="Websites" type="b2602c69:ProjectViewProjectNode" />
               <item name="tribute" type="462c0819:PsiDirectoryNode" />
@@ -300,7 +286,7 @@
       <workItem from="1527525908765" duration="679000" />
       <workItem from="1527527234231" duration="666000" />
       <workItem from="1527528006725" duration="39000" />
-      <workItem from="1527602868298" duration="5782000" />
+      <workItem from="1527602868298" duration="6581000" />
     </task>
     <task id="LOCAL-00001" summary="Add Search Project">
       <created>1527335886195</created>
@@ -463,11 +449,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527606803049</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Adds additional elements to fulfill html requirements">
+      <created>1527610480094</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1527610480094</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53949000" />
+    <option name="totallyTimeSpent" value="54748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="61" width="1287" height="788" extended-state="0" />
@@ -582,7 +575,8 @@
     <MESSAGE value="Refactor" />
     <MESSAGE value="Initial commit for Twitch project" />
     <MESSAGE value="Adds logic to handle various responses" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds logic to handle various responses" />
+    <MESSAGE value="Adds additional elements to fulfill html requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds additional elements to fulfill html requirements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -737,13 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tribute/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -758,17 +745,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitch/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/twitch/js/twitch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2040">
-          <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+          <caret line="136" column="35" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tribute/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitch/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
