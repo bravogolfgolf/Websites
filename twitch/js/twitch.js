@@ -108,38 +108,40 @@ $(document).ready(function () {
 
     for (var i = 0; i < streams.length; i++) {
         var item = streams[i];
-        var divOpen = "<div>";
         var divClose = "</div>";
 
         if (streams[i].status === 404) {
             console.log("Error");
         }
         else if (streams[i].stream === null) {
-            html += '<div class="offline">';
+            html += '<div class="offline row justify-content-center align-items-center mb-3">';
 
-            html += divOpen;
+            html += '<img class="p-0" src="../images/no_icon.png">';
+
+            html += '<div class="col-2 offset-md-1">';
             html += item.display_name;
             html += divClose;
-            html += divOpen;
+            html += '<div class="col">';
             html += "Offline";
             html += divClose;
 
             html += divClose;
         }
         else {
-            html += '<div class="online">';
 
-            html += '<img src=\"';
+            html += '<div class="online row justify-content-center align-items-center mb-3">';
+
+            html += '<img class="p-0" src=\"';
             html += item.stream.logo;
             html += '\">';
 
-            html += '<a href=\"';
+            html += '<a  class="col-2 offset-md-1 text-black" href=\"';
             html += item.stream.url;
             html += '\">';
             html += item.stream.display_name;
             html += '</a>';
 
-            html += divOpen;
+            html += '<div class="col">';
             html += item.stream.status;
             html += divClose;
 
