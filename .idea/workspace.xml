@@ -80,9 +80,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="171" />
+    <option name="x" value="50" />
     <option name="y" value="61" />
-    <option name="width" value="1166" />
+    <option name="width" value="1287" />
     <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -189,7 +189,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Websites/portfolio/html/index.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Websites/twitch/html/index.html" />
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="Twitch" />
       <option name="VM_PARAMETERS" />
