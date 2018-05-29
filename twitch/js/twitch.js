@@ -107,21 +107,43 @@ $(document).ready(function () {
     var html = "";
 
     for (var i = 0; i < streams.length; i++) {
+        var item = streams[i];
+        var divOpen = "<div>";
+        var divClose = "</div>";
 
-        if (streams[i].error === "Not Found") {
-            html += "<h4>";
-            html += streams[i].message;
-            html += "</h4>";
+        if (streams[i].status === 404) {
+            console.log("Error");
         }
         else if (streams[i].stream === null) {
-            html += "<h4>";
-            html += streams[i].display_name;
-            html += "</h4>";
+            html += '<div class="offline">';
+
+            html += divOpen;
+            html += item.display_name;
+            html += divClose;
+            html += divOpen;
+            html += "Offline";
+            html += divClose;
+
+            html += divClose;
         }
         else {
-            html += "<h4>";
-            html += streams[i].stream.display_name;
-            html += "</h4>";
+            html += '<div class="online">';
+
+            html += '<img src=\"';
+            html += item.stream.logo;
+            html += '\">';
+
+            html += '<a href=\"';
+            html += item.stream.url;
+            html += '\">';
+            html += item.stream.display_name;
+            html += '</a>';
+
+            html += divOpen;
+            html += item.stream.status;
+            html += divClose;
+
+            html += divClose;
         }
 
     }
